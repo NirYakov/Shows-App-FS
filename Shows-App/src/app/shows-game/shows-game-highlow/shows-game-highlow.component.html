@@ -1,0 +1,25 @@
+<div class="container">
+
+  <div class="box1">
+
+    <h2> {{firstTitle}}</h2>
+    <img [src]="firstImg" alt="">
+    <div class="miniContainer">
+      <h3> Your Rating Is : 7.6</h3>
+    </div>
+  </div>
+
+  <div class="box2">Vs</div>
+  <!-- btnSpace -->
+  <div class="box3">
+    <h2> {{secondTitle}}</h2>
+
+    <img [src]="secondImg" alt="">
+    <div class="miniContainer">
+      <button class="btnSpace" (click)="onClickChoseAction()"> Higher</button>
+      <button class="btnSpace" (click)="onClickChoseAction()"> Lower</button>
+
+    </div>
+  </div>
+
+</div>
